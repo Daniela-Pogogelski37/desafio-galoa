@@ -1,0 +1,97 @@
+<template>
+
+  <div class="flex flex-row"> 
+
+    <div class="flex flex-col bloco-esq h-screen z-10">
+      <div class="bg-slaca flex flex-wrap content-center">
+        <div class="w-full text-center text-3xl font-family roboto, fnt-style: normal-case font-bold text-white">Avaliação Inteligente</div> 
+      </div>
+      <div class="wrap">
+        <img alt="" src="/public/img-top-left.png" title="" height="258px" width="220px"/>
+      </div>
+      <div class="divide-y-2">
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a href="#">Apresentação</a></div></div>
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a href="#">PEDI</a></div></div>
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a href="#"> PEDI-CAT</a></div></div>
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a hreflang=flex> Perfil Sensorial 1 - Criança</a></div></div>
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a href="#"> Perfil Sensorial 1 - Adolescente</a></div></div>
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a href="#"> Perfil Sensorial 1 - Adulto</a></div></div>
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a href="#">Perfil Sensorial 2 - Bebê</a></div></div>
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a href="#">Perfil Sensorial 2 - Criança Pequena</a></div></div>
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a href="#">Perfil Sensorial 2 - Criança</a></div></div>
+        <div class="item-menu-lateral flex flex-wrap content-center"><div class="ml-6 txt-item-menu"><a href="#">Perfil Sensorial 2 - Escolar</a></div></div>
+        <div class="sl-item-menu-lateral flex flex-wrap content-center"><div class="bar-mn-sl h-full"></div><div class="ml-6 txt-item-menu h-full flex flex-wrap content-center"><a href="#">Trabalhos</a></div></div>
+
+      </div>
+    </div>    
+
+    <div  class="grid m-5 bg-pink-50 grid-cols-2 w-full h-4">
+      <div class= ".cor-fundo a-cong">Anais do Congresso Latino-americano de Ciências de alimentos</div>
+      <div class= ".cor-fundo">2</div>
+    </div>
+
+  </div>
+</template>
+
+<script setup>
+</script>
+
+<style>
+
+
+.bloco-esq {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.bg-slaca {
+  background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+  width: 220px;
+  height: 68px;
+}
+
+.txt-item-menu {
+  color: #725C5C;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.item-menu-lateral {
+  height: 33px;
+}
+
+.sl-item-menu-lateral {
+  height: 33px;
+  background: #FDF1EB;  
+}
+
+.bar-mn-sl {
+  background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+  width: 5px;
+}
+
+.cor-fundo {
+  color:#FDF1EB;
+}
+
+.barra-superior {
+  color:#FDF1EB; 
+position: absolute;
+width: 1146px;
+height: 68px;
+}
+
+.a-cong {
+  color:#725C5C;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+
+</style>
+
+
